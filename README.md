@@ -2,6 +2,8 @@
 
 This bot can be leveraged to automatically create Jira tickets using the Jira Server/DataCenter API.
 
+On a pull-request, use the `/jira ISSUEKEY` syntax to automatically create a Task and link it to the Epic `ISSUEKEY`.
+
 ```
 Arguments:
   --token: The Jira personal access token.
